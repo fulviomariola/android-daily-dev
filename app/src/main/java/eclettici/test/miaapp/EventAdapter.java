@@ -27,6 +27,7 @@ public class EventAdapter extends ArrayAdapter<Event>
 
         if(convertView == null)
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.event_cell, parent, false);
+
         TextView enterCellTV = convertView.findViewById(R.id.enterCellTV);
 
         String eventTitle = event.getName() +" "+ CalendarUtils.formattedTime(event.getTime());

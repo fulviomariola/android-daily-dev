@@ -4,6 +4,7 @@
     <color name="blue">#0000FF</color>
     <color name="black">#FF000000</color>
     <color name="gray">#5D6D7E</color>
+    <color name="lightGray">#EEE</color>
     <color name="violet">#8E44AD</color>
     <color name="greenWeek">#1E8449</color>
 </resources>

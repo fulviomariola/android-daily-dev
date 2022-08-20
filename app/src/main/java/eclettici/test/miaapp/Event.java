@@ -21,6 +21,22 @@ public class Event
         return events;
     }
 
+    public static ArrayList<Event> eventForDateAndTime(LocalDate date, LocalTime time)
+    {
+        ArrayList<Event> events = new ArrayList<>();
+
+        for(Event event : eventList)
+        {
+            int eventHour = event.time.getHour();
+            int cellHour = time.getHour();
+            if(event.getDate().equals(date) && eventHour == cellHour)
+                events.add(event);
+        }
+
+        return events;
+    }
+
+
 
     private String name;
     private LocalDate date;
@@ -32,7 +48,8 @@ public class Event
         this.time = time;
     }
 
-    public String getName() {
+    public String getName()
+    {
         return name;
     }
 

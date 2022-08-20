@@ -68,6 +68,16 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:text="DOM"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="LUN"
             android:textColor="@color/blue"
             android:textStyle="bold"
@@ -79,8 +89,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="MAR"
-            android:textColor="@color/blue"
             android:textStyle="bold"
+            android:textColor="@color/blue"
             android:textAlignment="center"
             android:textSize="16sp"/>
 
@@ -119,16 +129,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="SAB"
-            android:textStyle="bold"
-            android:textColor="@color/blue"
-            android:textAlignment="center"
-            android:textSize="16sp"/>
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="DOM"
             android:textStyle="bold"
             android:textColor="@color/blue"
             android:textAlignment="center"
